@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0f0f0f; color: #fff; font-family: Arial, sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 60px 20px; }
+h1 { font-size: 36px; margin-bottom: 40px; }
+.games { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; max-width: 800px; width: 100%; }
+.card {
+  background: #1a1a1a; border-radius: 12px; padding: 30px; text-decoration: none;
+  color: #fff; transition: transform 0.2s, background 0.2s; border: 1px solid #2a2a2a;
+}
+.card:hover { transform: translateY(-4px); background: #222; }
+.card .emoji { font-size: 48px; margin-bottom: 15px; }
+.card h2 { font-size: 20px; margin-bottom: 8px; }
+.card p { font-size: 14px; color: #888; }
+</style>
+</head>
+<body>
+<h1>🎮 Games</h1>
+<div class="games">
+  <a href="agario/" class="card">
+    <div class="emoji">🟢</div>
+    <h2>Agar.io Clone</h2>
+    <p>Eat food, grow bigger, consume bots. How massive can you get?</p>
+  </a>
+</div>
+</body>
+</html>

@@ -1,67 +1,159 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Ben Saph, BS. - 6x AWS Certified Cloud Engineer</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Ben Saph, BS. - 6x AWS Certified Cloud Engineer</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+ <style>
+   .profile-header {
+     display: grid;
+     grid-template-columns: 240px 1fr;
+     gap: 40px;
+     align-items: center;
+     padding: 40px 0 30px;
+   }
+   .profile-photo img {
+     width: 240px;
+     height: 240px;
+     border-radius: 120px;
+     object-fit: cover;
+   }
+   .profile-intro h1 {
+     margin-bottom: 0;
+   }
+   .profile-intro .subtitle {
+     display: block;
+     font-size: 1.1rem;
+     color: #666;
+     margin-bottom: 16px;
+   }
+   .cert-badges {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+     margin-top: 12px;
+   }
+   .cert-badge {
+     background: #e8f4fd;
+     color: #1a73a7;
+     font-family: 'Roboto', sans-serif;
+     font-size: 0.8rem;
+     font-weight: 700;
+     padding: 4px 10px;
+     border-radius: 4px;
+   }
+   .profile-section {
+     padding: 24px 0;
+     border-top: 1px solid #eee;
+   }
+   .profile-section h2 {
+     font-size: 1.4rem;
+     margin-bottom: 12px;
+   }
+   .profile-section p {
+     margin-bottom: 1rem;
+   }
+   .contact-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 12px;
+   }
+   .contact-item {
+     font-family: 'Roboto', sans-serif;
+     font-size: 0.95rem;
+   }
+   .contact-item .label {
+     color: #999;
+     font-size: 0.8rem;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+   }
+   .back-link {
+     display: inline-block;
+     margin-top: 30px;
+     padding: 10px 24px;
+     border: 1px solid #2b68aa;
+     border-radius: 4px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 0.9rem;
+     transition: background 0.2s, color 0.2s;
+   }
+   .back-link:hover {
+     background: #2b68aa;
+     color: #fff;
+     text-decoration: none;
+   }
+   @media (max-width: 700px) {
+     .profile-header {
+       grid-template-columns: 1fr;
+       text-align: center;
+     }
+     .profile-photo {
+       display: flex;
+       justify-content: center;
+     }
+     .cert-badges {
+       justify-content: center;
+     }
+     .contact-grid {
+       grid-template-columns: 1fr;
+     }
+   }
+ </style>
 </head>
+<body>
+ <div class="container">
 
-<body bgcolor="#99CCFF">
+   <div class="profile-header">
+     <div class="profile-photo">
+       <img src="IMG_3605.jpeg" alt="Ben Saph">
+     </div>
+     <div class="profile-intro">
+       <h1>Ben Saph, BS.</h1>
+       <span class="subtitle">6x AWS Certified Cloud Engineer</span>
+       <div class="cert-badges">
+         <span class="cert-badge">Solutions Architect – Associate</span>
+         <span class="cert-badge">Solutions Architect – Professional</span>
+         <span class="cert-badge">Developer – Associate</span>
+         <span class="cert-badge">SysOps Administrator – Associate</span>
+         <span class="cert-badge">Security – Specialty</span>
+         <span class="cert-badge">AI Practitioner</span>
+       </div>
+     </div>
+   </div>
 
-<table border="0" cellpadding="0" cellspacing="0" width="844" height="600">
-	<!-- MSTableType="layout" -->
-	<tr>
-	<td width="2"></td>
-		<td valign="top" width="256">
-		<!-- MSCellType="DecArea" -->
-		&nbsp;</td>
-		<td valign="top" rowspan="2">
-		<!-- MSCellType="ContentHead" -->
-		<p align="center"><b><font size="5">Ben Saph, BS.</font></b></p>
-		<p align="center"><b><font size="4">6x AWS Certified Cloud Engineer</font></b><hr>
-		</td>
-	<td height="82"></td>
-	</tr>
-	<tr>
-		<td valign="top" rowspan="2" colspan="2">
-		<img border="0" src="IMG_3605.jpeg" width="225" height="318"></td>
-		<td height="10"></td>
-	</tr>
-	<tr>
-		<td valign="top" width="584" rowspan="4">
-		<!-- MSCellType="ContentBody" -->
-		<blockquote>
-	<p class="MsoBodyTextIndent3" style="line-height: normal; margin-left: 0in">Mr. Saph's background is in the areas of Computer Science and Computer 
-	Engineering including both hardware and software.&nbsp; He is currently working as a Technical Account Manager at Amazon Web Services (AWS), 
-		specializing in Containers related services such as EKS and ECS. Ben also holds several AWS certifications such as the AWS Certified Solutions Architect - Associate, AWS Certified Solutions Architect - Professional, AWS Certified Developer - Associate, AWS Certified Security - Specialty, AWS Certified SysOps Administrator — Associate, and AWS Certified AI Practitioner.&nbsp; Ben Saph also runs a successful YouTube channel with some videos amassing over half a million views. &nbsp;</p>
+   <div class="profile-section">
+     <h2>About</h2>
+     <p>Mr. Saph's background is in the areas of Computer Science and Computer Engineering including both hardware and software. He is currently working as a Technical Account Manager at Amazon Web Services (AWS), specializing in Containers related services such as EKS and ECS. Ben also runs a successful YouTube channel with some videos amassing over half a million views.</p>
+   </div>
 
-	<p class="MsoBodyTextIndent2" style="line-height:normal">Mr. Saph holds a 
-	Bachelors degree in Computer Engineering from California Polytechnic State University (Cal Poly)
-	obtained in 2021. He was on the Dean's Honors List multiple quarters and named to the President's Honors List. </p>
-	<p class="MsoBodyTextIndent2" style="line-height:normal">Prior to undergraduate 
-	school, Mr. Saph attended a highly sought after school in the great state of Kansas. </p>
-	<p class="MsoBodyTextIndent2" style="line-height:normal">Copies of Mr. Saph's Resume and Projects can be requested.</p>
-		</blockquote>&nbsp;</td>
-		<td height="318"></td>
-	</tr>
-	<tr>
-		<td valign="top" colspan="2">
-		<p align="justify">&nbsp;</p>
-		<p align="justify"><u>Contact Information</u><br>
-&nbsp;&nbsp;&nbsp;&nbsp; All Socials: @bensaph <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Email: <a href="">
-		</a></p>
-		<p>&nbsp;&nbsp;<a href="https://bensaph.com/">Back to Home</a></td>
-		<td height="600"></td>
-	</tr>
-	<tr>
-		<td valign="top" colspan="2">
-		<!-- MSCellType="NavBody" -->
-		&nbsp;</td>
-		<td height="45" width="2"></td>
-	</tr>
-</table>
+   <div class="profile-section">
+     <h2>Education</h2>
+     <p>Mr. Saph holds a Bachelors degree in Computer Engineering from California Polytechnic State University (Cal Poly) obtained in 2021. He was on the Dean's Honors List multiple quarters and named to the President's Honors List.</p>
+     <p>Prior to undergraduate school, Mr. Saph attended a highly sought after school in the great state of Kansas.</p>
+   </div>
 
+   <div class="profile-section">
+     <h2>Contact</h2>
+     <div class="contact-grid">
+       <div class="contact-item">
+         <div class="label">Socials</div>
+         @bensaph
+       </div>
+       <div class="contact-item">
+         <div class="label">Resume &amp; Projects</div>
+         Available upon request
+       </div>
+     </div>
+   </div>
+
+   <a href="https://bensaph.com/" class="back-link">&larr; Back to Home</a>
+
+   <div id="bottom">
+   </div>
+
+ </div>
 </body>
-
 </html>
